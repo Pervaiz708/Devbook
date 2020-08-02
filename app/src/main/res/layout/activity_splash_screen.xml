@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03DBFD"
+    android:orientation="vertical"
+    tools:context=".Splash_Screen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp">
+
+        <ImageView
+            android:id="@+id/Java_Circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/one" />
+
+        <ImageView
+            android:id="@+id/Android_Circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="40dp"
+            android:layout_toLeftOf="@+id/Java_Circle"
+            android:background="@drawable/two" />
+
+        <ImageView
+            android:id="@+id/Competitive_Circle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="40dp"
+            android:layout_toRightOf="@+id/Java_Circle"
+            android:background="@drawable/three" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp">
+
+        <ImageView
+            android:id="@+id/Logo_view"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_launcher"
+            android:outlineSpotShadowColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/convergence"
+            android:text="@string/txt"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</LinearLayout>

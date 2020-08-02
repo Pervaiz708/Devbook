@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Devbook</string>
+    <string name="bt1">Head First Android </string>
+    <string name="bt2">Android Development For Dummies</string>
+    <string name="bt3">Data Structure And Algorithms</string>
+    <string name="bt4">Head First Java</string>
+    <string name="bt5">Java For Dummies</string>
+    <string name="bt6">Competative Programming</string>
+    <string name="bt7">Algorithms</string>
+    <string name="bt8">Java Errors</string>
+    <string name="bt9">Inside JVM</string>
+    <string name="txt">Software Development Books</string>
+</resources>

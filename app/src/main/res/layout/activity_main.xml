@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_book1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt1"
+
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt2"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:fontFamily="@font/bree_serif"
+                android:text="@string/bt3"
+                android:textColor="@color/Tx_Color"
+
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_book4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt4"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt5"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt6"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt7"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt8"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+            <Button
+                android:id="@+id/bt_book9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@color/Btn_Color"
+                android:text="@string/bt9"
+                android:textColor="@color/Tx_Color"
+                android:textSize="18sp"
+
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
